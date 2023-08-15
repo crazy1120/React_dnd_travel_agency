@@ -1,0 +1,35 @@
+.fullWidth {
+  width: 100%;
+  cursor: text;
+}
+
+.toolbarClass div .rdw-editor-toolbar {
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.noPadding > :last-child {
+  margin-bottom: 0;
+}
+
+.noPadding > :first-child {
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.placeholder {
+  color: #aaa;
+}
+
+.placeholder > :first-child {
+  margin-top: 0;
+}
+
+.placeholder > :last-child {
+  margin-bottom: 0;
+}

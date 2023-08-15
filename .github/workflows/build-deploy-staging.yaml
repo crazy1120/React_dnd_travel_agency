@@ -1,0 +1,38 @@
+name: Build & Deploy to Staging
+on:
+  push:
+    branches:
+      - 'staging'
+  workflow_dispatch: {}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: npm install
+        run: npm install --force
+
+      - name: npm run build
+        run: npm run build-staging
+        env:
+          CI: false
+
+      
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          aws-region: eu-central-1
+          role-to-assume: arn:aws:iam::148174262075:role/terraform
+
+      - name: deploy to staging
+        run: aws s3 sync dist s3://staging-frankiesurveys.com

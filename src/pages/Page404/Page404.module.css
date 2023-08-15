@@ -1,0 +1,19 @@
+.pageWarper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pageTitle {
+  font-size: 100px;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.pageSubTitle {
+  font-size: 20px;
+  line-height: 1.2;
+}

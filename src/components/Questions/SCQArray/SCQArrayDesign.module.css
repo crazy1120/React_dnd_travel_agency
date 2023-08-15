@@ -1,0 +1,28 @@
+.scqList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  .scqItem {
+    flex-basis: 49%;
+
+    > h5 {
+      margin: 10px 0;
+    }
+  }
+}
+
+.answerAdd {
+  display: flex;
+  align-items: baseline;
+  padding-left: 18px;
+
+  .answerIcon {
+    align-self: center;
+  }
+
+  .answerNumberOrder {
+    width: 18px;
+    text-align: center;
+  }
+}

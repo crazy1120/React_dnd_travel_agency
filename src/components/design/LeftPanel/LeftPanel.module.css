@@ -1,0 +1,29 @@
+.leftContent {
+  padding: 15px;
+  width: 30%;
+  overflow-y: auto;
+  height: 100vh;
+  padding-top: 16px;
+}
+
+.leftPanelGroupItem {
+  text-align: center;
+}
+
+.close {
+  padding: 8px;
+  text-align: right;
+}
+
+.stickyButton {
+  position: fixed;
+  left: 0;
+  /* Adjust the left position as desired */
+  top: 20%;
+  /* Adjust the top position as desired */
+  transform-origin: top left;
+  transform: rotate(90deg) translateY(-100%);
+  /* Rotate and move button to the side */
+  z-index: 999;
+  /* Ensure the button appears above other elements */
+}

@@ -1,0 +1,214 @@
+{
+  "processed_errors": {
+    "backend_down": "الخلفية لا يمكن الوصول إليها ... يرجى المحاولة مرة أخرى لاحقًا",
+    "network_err": "هذا المتصفح غير متصل",
+    "false_credentials": "بريد إلكتروني أو كلمة مرور خاطئة",
+    "wrong_password": " كلمة مرور خاطئة",
+    "duplicate_email": "بريد إلكتروني مكرر",
+    "expired_reset_token": "رمز التأكيد منتهي الصلاحية , الرجاء النقر فوق نسيت كلمة المرور مرة أخرى",
+    "wrong_reset_token": "رمز إعادة التعيين هذا غير صحيح , انقر فوق نسيت كلمة المرور مرة أخرى",
+    "used_confirmation_token": "هذا التأكيد كان مستخدمًا بالفعل. حاول تسجيل الدخول مع المستخدم الذي قمت بتسجيله للتو",
+    "expired_confirmation_token": "رمز التأكيد منتهي الصلاحية , الرجاء التسجيل مرة أخرى",
+    "duplicate_survey_name": "تكرار اسم الاستطلاع",
+    "unidentified_error": "حدث خطأ غير متوقع ، يرجى إبلاغ support@frankiesurveys.com",
+    "invalid_survey_dates": "يجب أن يكون تاريخ البدء قبل تاريخ الانتهاء",
+    "google_auth_error": "تعذر التحقق من حساب Google ، يرجى المحاولة مرة أخرى لاحقًا ... إذا استمر الخطأ ، فيرجى الاتصال بالدعم"
+  },
+  "processed_successes": {
+    "copied": "نسخ"
+  },
+  "label": {
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "new_password": "كلمة المرور الجديدة",
+    "confirm_new_password": "تأكيد كلمة المرور الجديدة",
+    "first_name": "الاسم الأول",
+    "last_name": "اسم العائلة",
+    "server_name": "اسم الخادم",
+    "super_admin": "مشرف فائق",
+    "survey_admin": "مسؤول المسح",
+    "analyst": "المحلل",
+    "surveyor": "مساح",
+    "surveyor_admin": "مشرف المساح",
+    "survey_name": "اسم الاستطلاع",
+    "new_survey_name": "اسم الاستطلاع الجديد",
+    "base_language": "لغة الأساس",
+    "survey_mode": "وضع المسح",
+    "additional_languages": "لغات إضافية",
+    "survey_active": "المسح نشط",
+    "from": "من",
+    "to": "ل",
+    "public_within_org": "المسح متاح لجميع الأعضاء داخل المؤسسة",
+    "application_quota": "تطبيق الحصة",
+    "total_responses_limit": "حد الردود الإجمالي:",
+    "code": "كود"
+  },
+  "language": {
+    "en": "إنجليزي",
+    "de": "ألمانية",
+    "ar": "عربي"
+  },
+  "mode": {
+    "web": "متصل",
+    "offline": "متحرك",
+    "mixed": "عبر الإنترنت والجوال"
+  },
+  "status": {
+    "draft": "مسودة",
+    "active": "نشط",
+    "closed": "مغلق"
+  },
+  "error": {
+    "invalid_email": "بريد إلكتروني غير صالح",
+    "password_should_match": "يجب أن تتطابق كلمة المرور",
+    "required": "مطلوب"
+  },
+  "login": {
+    "title": "تسجيل الدخول",
+    "forgot_password": "نسيت كلمة المرور",
+    "sign_up": "تسجيل",
+    "submit": "إرسال تقديم"
+  },
+  "Confirm_signup": {
+    "error": "حدث خطأ",
+    "success": "تم تأكيد اشتراكك بنجاح ... ستتم إعادة توجيهك إلى الصفحة الرئيسية في غضون 10 ثوانٍ"
+  },
+  "forgot_password": {
+    "title": "نسيت كلمة المرور",
+    "success": "تم إرسال رابط إعادة تعيين كلمة المرور إلى بريدك الإلكتروني .. وهو صالح لمدة ساعة واحدة فقط",
+    "helper_text": "سنرسل رابط إعادة تعيين كلمة المرور إلى هذا البريد الإلكتروني (إن وجد)",
+    "send": "إرسال"
+  },
+  "reset_password": {
+    "title": "إعادة تعيين كلمة المرور",
+    "reset": "إعادة تعيين"
+  },
+  "sign_up": {
+    "title": "تسجيل",
+    "success": "تم تأكيد الاشتراك بنجاح ... يرجى التحقق من بريدك الوارد بحثًا عن رسالة تأكيد بالبريد الإلكتروني",
+    "sign_up": "تسجيل",
+    "helper_text": "اختر اسمًا لتعريف الخادم الخاص بك والوصول إليه. يختار معظم المستخدمين استخدام اسم مشروعهم أو استبيانهم أو مؤسستهم."
+  },
+  "users_manage": {
+    "name": "اسم",
+    "email": "بريد إلكتروني",
+    "roles": "رولين",
+    "add_user": "إضافة مستخدم",
+    "title_delete": "يمسح",
+    "title_edit": "يحرر",
+    "delete_title": "هل أنت متأكد أنك تريد حذف {{name}}؟"
+  },
+  "action_btn": {
+    "delete": "يمسح",
+    "cancel": "يلغي",
+    "save": "يحفظ",
+    "close": "يغلق",
+    "clone": "استنساخ",
+    "add_permission": "إضافة الإذن",
+    "add": "يضيف"
+  },
+  "add_user": {
+    "title": "إضافة مستخدم جديد",
+    "roles": "الأدوار",
+    "cancel": "يلغي",
+    "save": "يحفظ"
+  },
+  "edit_user": {
+    "title": "تحرير العضو"
+  },
+  "profile": {
+    "title": "حساب تعريفي",
+    "cancel": "يلغي",
+    "save": "يحفظ",
+    "hint": "عندما تقوم بتغيير بريدك الإلكتروني أو كلمة المرور الخاصة بك , سيتم تسجيل خروجك",
+    "password_required": "كلمة المرور الحالية مطلوبة لتتمكن من تعديل بريدك الإلكتروني أو كلمة المرور"
+  },
+  "create_survey": {
+    "title": "إنشاء الاستبيان"
+  },
+  "edit_survey": {
+    "title": "تحرير الاستطلاع",
+    "general": "عام",
+    "sharing": "مشاركة",
+    "navigation": "ملاحة",
+    "offline": "غير متصل على الانترنت",
+    "quotas": "الحصص",
+    "survey_users": "مسح المستخدمين",
+    "privacy": "خصوصية",
+    "status": "حالة",
+    "delete_survey": "هل أنت متأكد أنك تريد حذف {{survey_name}}؟",
+    "clone_survey": "مسح استنساخ",
+    "default_survey_url": "عنوان URL الافتراضي للاستطلاع",
+    "social_sharing": "مشاركه إجتماعيه",
+    "background_audio": "تسجيل صوتي في الخلفية",
+    "record_gps": "تتبع موقع GPS",
+    "can_lock_survey": "السماح للمساحين لقفل المسح",
+    "save_ip": "سجل عناوين IP",
+    "save_timings": "توقيتات قياسية",
+    "limit_responses": "الحد من الردود من قبل المساحين",
+    "surveyor": "مساح",
+    "count": "عدد",
+    "limit": "حد",
+    "to": "ل",
+    "responses": "استجابات"
+  },
+  "responses": {
+    "title": "الردود",
+    "start_date": "تاريخ البدء",
+    "submit_date": "تاريخ الإرسال",
+    "lang": "اللغة",
+    "raw_values": "إظهار القيم الأولية",
+    "raw_complete": "إظهار الخام الكامل",
+    "raw_preview": "إظهار المعاينة الأولية",
+    "version": "الإصدار",
+    "preview": "معاينة",
+    "filter_completed": "استجابات الفلتر المكتملة",
+    "filter_completed_show_all": "كل الردود",
+    "filter_completed_show_completed": "الردود الكاملة فقط",
+    "filter_completed_show_incomplete": "الردود غير المكتملة فقط",
+    "filter_preview": "تصفية الردود المكتملة",
+    "filter_preview_show_all": "كل الردود",
+    "filter_preview_show_preview": "معاينة الردود فقط",
+    "filter_preview_show_actual": "الردود الفعلية فقط",
+    "label_displayed_rows": "{{from}} - {{to}} من {{count}}",
+    "label_rows_per_page": "عدد الصفوف في كل صفحة:",
+    "ip_addr": "عنوان IP",
+    "title_delete_response": "هل أنت متأكد أنك تريد حذف؟",
+    "export": "تصدير الردود",
+    "reset_surveyor_filter": "إعادة تعيين عامل تصفية المساح"
+  },
+  "event_response": {
+    "title": "أحداث الاستجابة",
+    "name": "اسم",
+    "time": "وقت",
+    "details": "تفاصيل",
+    "direction": "اتجاه"
+  },
+  "responses_count": "عدد الردود:",
+  "super_admins": "المشرفون المتميزون",
+  "admins": "المسؤولون",
+  "analysts": "محللون",
+  "surveyors": "مساحون",
+  "Surveyor_auditor": "مساح مدقق",
+  "registered": "مسجلة",
+  "manage_users": "Manage Users",
+  "my_surveys": "My Surveys",
+  "new_survey": "استبيان جديد",
+  "added": "تمت الإضافة:",
+  "last_modified": "آخر تعديل:",
+  "email_required": "البريد الإلكتروني مطلوب",
+  "password_required": "كلمة المرور مطلوبة",
+  "Confirm_password_required": "يجب إعادة كلمة المرور",
+  "firstname_required": "الاسم الأول مطلوب",
+  "Lastname_required": "اسم العائلة مطلوب",
+  "roles_required": "الأدوار مطلوبة",
+  "survey_required": "اسم الاستطلاع مطلوب",
+  "base_language_required": "اللغة الأساسية مطلوبة",
+  "survey_mode": "وضع الاستطلاع مطلوب",
+  "upload_image": "تحميل الصورة",
+  "replace_image": "استبدال الصورة",
+  "uploading_image": "تحميل الصورة",
+  "upload_video": "تحميل الفيديو",
+  "replace_video": "استبدال الفيديو",
+  "uploading_video": "تحميل الفيديو"
+}

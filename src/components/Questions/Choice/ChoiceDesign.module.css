@@ -1,0 +1,9 @@
+.answerAdd {
+  display: flex;
+  align-items: baseline;
+  padding-left: 18px;
+}
+
+.answerIcon {
+  align-self: center;
+}

@@ -1,0 +1,27 @@
+.actionControl {
+  display: flex;
+  margin-right: 8px;
+  margin-left: 8px;
+  justify-content: flex-end;
+}
+
+.statusIcon {
+  cursor: default;
+}
+
+.questionContainer {
+  padding: 16px;
+}
+
+.actionIcon,
+.settingIcon {
+  font-size: 22px;
+}
+
+.settingIcon {
+  transform: rotate(90deg);
+}
+
+.deleteIcon {
+  font-size: 32px;
+}

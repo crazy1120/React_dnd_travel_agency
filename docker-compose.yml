@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  app:
+    container_name: 'frankie-react'
+    image: node:19-alpine
+    ports:
+      - "3000:3000"
+    working_dir: /app
+    volumes:
+      - ./build:/app/build
+    command: sh -c "npm install -g serve && serve -s /app/build"
+

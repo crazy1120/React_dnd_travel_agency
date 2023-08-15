@@ -1,0 +1,17 @@
+.mainContainer {
+  margin: auto;
+  padding-right: 16px;
+  padding-left: 16px;
+  min-width: 300px;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.loadingWrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 50px;
+}

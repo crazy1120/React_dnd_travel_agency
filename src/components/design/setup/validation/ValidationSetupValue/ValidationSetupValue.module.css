@@ -1,0 +1,13 @@
+.valueValidationItems {
+  display: flex;
+  align-items: center;
+}
+
+.valueValidationItemsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.valueValidationItemsContainer .error {
+  color: red;
+}

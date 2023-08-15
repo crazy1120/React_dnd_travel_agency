@@ -1,0 +1,208 @@
+{
+  "processed_errors": {
+    "backend_down": "Backend ist nicht erreichbar... Bitte versuchen Sie es später erneut",
+    "network_err": "Dieser Browser ist offline",
+    "wrong_credentials": "Falsche E-Mail oder Passwort",
+    "wrong_password": "Falsches Passwort",
+    "duplicate_email": "Doppelte E-Mail",
+    "expired_reset_token": "Abgelaufenes Bestätigungstoken, bitte klicken Sie noch einmal auf Passwort vergessen",
+    "wrong_resettoken": "Dieses Reset-Token, klicken Sie noch einmal auf Passwort vergessen",
+    "used_confirmation_token": "Diese Bestätigung war bereits ein Benutzer. Versuchen Sie, sich mit dem Benutzer anzumelden, den Sie gerade registriert haben",
+    "expired_confirmation_token": "Abgelaufenes Bestätigungstoken, bitte erneut registrieren",
+    "duplicate_survey_name": "Doppelter Umfragename",
+    "unidentified_error": "Unerwarteter Fehler aufgetreten, bitte melden Sie sich an support@frankiesurveys.com",
+    "invalid_survey_dates": "Startdatum muss vor Enddatum liegen",
+    "google_auth_error": "Das Google-Konto konnte nicht bestätigt werden. Bitte versuchen Sie es später erneut. Wenn der Fehler weiterhin besteht, wenden Sie sich bitte an den Support."
+  },
+  "processed_successes": {
+    "copied": "Kopiert"
+  },
+  "label": {
+    "email": "Email",
+    "password": "Passwort",
+    "new_password": "Neues Kennwort",
+    "current_password": "Aktuelles Passwort",
+    "confirm_new_password": "Bestätige neues Passwort",
+    "first_name": "Vorname",
+    "last_name": "Familienname, Nachname",
+    "server_name": "Server Name",
+    "super_admin": "Höchster Vorgesetzter",
+    "survey_admin": "Umfrage Admin",
+    "analyst": "Analytikerin",
+    "surveyor": "Landvermesser",
+    "surveyor_admin": "Surveyor-Administrator",
+    "survey_name": "Umfragename",
+    "new_survey_name": "Neuer Umfragename",
+    "base_language": "Basissprache",
+    "survey_mode": "Umfragemodus",
+    "additional_languages": "Weitere Sprachen",
+    "survey_active": "Umfrage aktiv",
+    "from": "Aus",
+    "to": "Zu",
+    "public_within_org": "Die Umfrage steht allen Mitgliedern innerhalb der Organisation zur Verfügung",
+    "apply_quota": "Keine Quote",
+    "total_responses_limit": "Beantwortungslimit insgesamt: "
+  },
+  "language": {
+    "en": "Englisch",
+    "de": "Deutsch",
+    "ar": "Arabisch"
+  },
+  "mode": {
+    "web": "Web",
+    "offline": "Offline",
+    "mixed": "Web und Offline"
+  },
+  "status": {
+    "draft": "Entwurf",
+    "active": "Aktiv",
+    "closed": "Geschlossen"
+  },
+  "error": {
+    "invalid_email": "Ungültige E-Mail",
+    "password_should_match": "Password should match",
+    "required": "Is required"
+  },
+  "login": {
+    "title": "Login",
+    "forgot_password": "Passwort vergessen",
+    "sign_up": "Anmeldung",
+    "submit": "Anmeldung"
+  },
+  "confirm_signup": {
+    "error": "Ein Fehler ist aufgetreten",
+    "success": "Ihre Anmeldung wurde erfolgreich bestätigt... Sie werden in 10 Sekunden auf die Startseite weitergeleitet"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "success": "Ein Link zum Zurücksetzen des Passworts wurde an Ihre E-Mail-Adresse gesendet. Er ist nur eine Stunde lang gültig",
+    "helper_text": "Wir senden einen Link zum Zurücksetzen des Passworts an diese E-Mail (falls vorhanden).",
+    "send": "Schicken"
+  },
+  "reset_password": {
+    "title": "Passwort Zurücksetzen",
+    "reset": "Zurücksetzen"
+  },
+  "sign_up": {
+    "title": "Sign Up",
+    "success": "Anmeldung erfolgreich bestätigt... Bitte überprüfen Sie Ihren Posteingang auf eine Bestätigungs-E-Mail",
+    "sign_up": "Anmeldung",
+    "helper_text": "Wählen Sie einen Namen, um Ihren Server zu identifizieren und darauf zuzugreifen. Die meisten Benutzer entscheiden sich dafür, den Namen ihres Projekts, ihrer Umfrage oder Organisation zu verwenden."
+  },
+  "users_manage": {
+    "name": "Name",
+    "email": "Email",
+    "roles": "Rollen",
+    "add_user": "Benutzer hinzufügen",
+    "title_delete": "Löschen",
+    "title_edit": "Bearbeiten",
+    "delete_title": "Möchten Sie {{name}} wirklich löschen?"
+  },
+  "action_btn": {
+    "delete": "Löschen",
+    "cancel": "Stornieren",
+    "save": "Speichern",
+    "close": "Schließen",
+    "clone": "Klon",
+    "add_permission": "Berechtigung hinzufügen",
+    "add": "Hinzufügen"
+  },
+  "add_user": {
+    "title": "Neuen Benutzer hinzufügen",
+    "roles": "Rollen",
+    "cancel": "Stornieren",
+    "save": "Speichern"
+  },
+  "edit_user": {
+    "title": "Benutzer bearbeiten"
+  },
+  "profile": {
+    "title": "Profil",
+    "cancel": "Stornieren",
+    "save": "Speichern",
+    "hint": "Wenn Sie Ihre E-Mail-Adresse oder Ihr Passwort ändern, werden Sie abgemeldet",
+    "password_required": "Aktuelles Passwort ist erforderlich, um Ihre E-Mail oder Ihr Passwort bearbeiten zu können"
+  },
+  "create_survey": {
+    "title": "Umfrage erstellen"
+  },
+  "edit_survey": {
+    "title": "Umfrage bearbeiten",
+    "general": "Allgemein",
+    "sharing": "Teilen",
+    "navigation": "Navigation",
+    "offline": "Offline",
+    "quotas": "Quoten",
+    "survey_users": "Benutzer befragen",
+    "privacy": "Privatsphäre",
+    "status": "Status",
+    "delete_survey": "Möchten Sie {{survey_name}} wirklich löschen?",
+    "clone_survey": "Klon-Umfrage",
+    "default_survey_url": "Standard-Umfrage-URL",
+    "social_sharing": "Soziales Teilen",
+    "background_audio": "Audioaufnahme im Hintergrund",
+    "record_gps": "Verfolgen Sie den GPS-Standort",
+    "can_lock_survey": "Erlauben Sie Vermessern, die Vermessung zu sperren",
+    "save_ip": "IP-Adressen aufzeichnen",
+    "save_timings": "Zeiten aufzeichnen",
+    "limit_responses": "Begrenzen Sie die Antworten von Vermessern",
+    "surveyor": "Landvermesserin",
+    "count": "Zählen",
+    "limit": "Grenze",
+    "to": "zu",
+    "responses": "antworten"
+  },
+  "responses": {
+    "title": "Antworten",
+    "start_date": "Startdatum",
+    "submit_date": "Sendedatum",
+    "lang": "Sprache",
+    "raw_values": "Rohwerte anzeigen",
+    "raw_complete": "Roh vollständig anzeigen",
+    "raw_preview": "Raw-Vorschau anzeigen",
+    "version": "Version",
+    "preview": "Vorschau",
+    "filter_completed": "Erledigte Antworten filtern",
+    "filter_completed_show_all": "Alle Antworten",
+    "filter_completed_show_completed": "Nur vollständige Antworten",
+    "filter_completed_show_incomplete": "Nur unvollständige Antworten",
+    "filter_preview": "Erledigte Antworten filtern",
+    "filter_preview_show_all": "Alle Antworten",
+    "filter_preview_show_preview": "Nur Vorschau der Antworten",
+    "filter_preview_show_actual": "Nur tatsächliche Antworten",
+    "label_displayed_rows": "{{from}}-{{to}} von {{count}}",
+    "label_rows_per_page": "Zeilen pro Seite:",
+    "ip_addr": "IP-Adresse",
+    "title_delete_response": "Sind Sie sicher, dass Sie löschen möchten?",
+    "export": "Antworten exportieren",
+    "reset_surveyor_filter": "Vermessungsfilter zurücksetzen"
+  },
+  "event_response": {
+    "title": "Antwortereignisse",
+    "name": "Name",
+    "time": "Zeit",
+    "details": "Einzelheiten",
+    "direction": "Richtung"
+  },
+  "responses_count": "Antwortanzahl:",
+  "super_admins": "super admins",
+  "admins": "admins",
+  "analysts": "analysten",
+  "surveyors": "vermesser",
+  "surveyor_auditor": "vermessungsprüfer",
+  "registered": "eingetragen",
+  "manage_users": "Manage-Benutzer",
+  "my_surveys": "Meine Umfragen",
+  "new_survey": "Neue Umfrage",
+  "added": "Hinzugefügt:",
+  "last_modified": "Zuletzt bearbeitet:",
+  "email_required": "E-Mail ist erforderlich",
+  "password_required": "Passwort ist erforderlich",
+  "confirm_password_required": "Sie müssen das Passwort wiederholen",
+  "firstname_required": "Vorname ist erforderlich",
+  "lastname_required": "Nachname ist erforderlich",
+  "roles_required": "Roles ist erforderlich",
+  "survey_required": "Name der Umfrage ist erforderlich",
+  "base_language_required": "Basissprache ist erforderlich",
+  "survey_mode": "Der Umfragemodus ist erforderlich"
+}

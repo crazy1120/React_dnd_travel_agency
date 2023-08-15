@@ -1,0 +1,38 @@
+.title {
+  margin: 0;
+  line-height: 40px;
+}
+
+.list {
+  padding-left: 7px;
+  margin: 0 0 10px;
+  list-style-type: none;
+}
+
+.list li {
+  line-height: 24px;
+  margin-bottom: 6px;
+  padding-left: 0;
+  margin-left: -12px;
+}
+
+.randomAction {
+  margin-top: 15px;
+  text-align: right;
+  padding-right: 4px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+}
+
+.listItem .input {
+  width: 50px;
+}
+
+.randomItem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+}

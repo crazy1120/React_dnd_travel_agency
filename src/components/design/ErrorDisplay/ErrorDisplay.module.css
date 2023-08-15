@@ -1,0 +1,12 @@
+.errorDisplay {
+  margin-bottom: 15px;
+  border: 1px solid orange;
+  background-color: rgba(255, 166, 0, 0.13);
+  border-radius: 4px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.clickable {
+  cursor: pointer;
+}

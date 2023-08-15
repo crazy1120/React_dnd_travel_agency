@@ -1,0 +1,19 @@
+.surveyHeader {
+  background-color: beige;
+  position: relative;
+}
+
+
+.topBanner-ltr {
+  padding: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topBanner-rtl {
+  padding: 4px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

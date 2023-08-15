@@ -1,0 +1,15 @@
+.surveyHeader {
+  padding: 5px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.contentCard {
+  padding: 5px;
+}
+
+.actionBtn {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}

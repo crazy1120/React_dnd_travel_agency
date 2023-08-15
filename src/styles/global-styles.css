@@ -1,0 +1,91 @@
+.MuiFormControl-root {
+  width: 100%;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.mt-20 {
+  margin-top: 20px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+
+.mr-10 {
+  margin-right: 10px !important;
+}
+
+.mr-14 {
+  margin-right: 14px !important;
+}
+
+.ml-14 {
+  margin-left: 14px !important;
+}
+
+.ml-5 {
+  margin-left: 5px !important;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+
+.ta-center {
+  text-align: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.card-custom {
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border: 1px solid;
+  border-radius: 8px;
+  cursor: default;
+}
+
+.required {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+.inputSurvey {
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.MuiSelect-select {
+  display: flex !important;
+  align-items: center;
+}
+
+.MuiSwitch-root {
+  margin-right: -4px;
+}
+
+.jsx-parser {
+  p {
+    margin: 0;
+  }
+}

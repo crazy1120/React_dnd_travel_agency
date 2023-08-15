@@ -1,0 +1,42 @@
+.leftPanelGroupItem {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.groupTitle {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.iconMenu {
+  min-width: 35px;
+}
+
+.tabHeader {
+  position: relative;
+}
+
+.tabHeader::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  border-bottom: 1px solid;
+}
+
+
+
+.leftContent {
+  background-color: white;
+  width: 30%;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.close {
+  padding: 8px;
+  text-align: right;
+}

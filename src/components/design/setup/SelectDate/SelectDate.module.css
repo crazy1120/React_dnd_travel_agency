@@ -1,0 +1,10 @@
+.selectDate {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.selectDateField {
+  max-width: 50%;
+}

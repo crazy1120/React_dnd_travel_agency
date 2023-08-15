@@ -1,0 +1,23 @@
+.choicesContainer {
+  display: flex;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.choicesContainer .choice {
+  padding: 8px;
+  width: 100%;
+  margin: 1px;
+  font-weight: bold;
+  font-size: larger;
+  border: 1px solid;
+  text-align: center;
+}
+
+.choiceLabels {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+}

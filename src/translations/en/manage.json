@@ -1,0 +1,208 @@
+{
+  "processed_errors": {
+    "backend_down": "Backend is Unreachable... Please Try again later",
+    "network_err": "This broweser is offline",
+    "wrong_credentials": "Wrong email or password",
+    "wrong_password": "Wrong password",
+    "duplicate_email": "Duplicate Email",
+    "expired_reset_token": "Expired Confirmation Token, Please Click on Forgot password once more",
+    "wrong_reset_token": "This Reset Token is incorrect, Click on Forgot password once more",
+    "used_confirmation_token": "This confirmation was already user. Try to login with the user you just registered",
+    "expired_confirmation_token": "Expired Confirmation Token, Please Register Once more",
+    "duplicate_survey_name": "Duplicate Survey Name",
+    "unidentified_error": "Unexpected Error occurred, please report to support@frankiesurveys.com",
+    "invalid_survey_dates": "Start Date must be before end date",
+    "google_auth_error": "Could not verify Google Account, please try again later... If error persist, please contact support"
+  },
+  "processed_successes": {
+    "copied": "Copied"
+  },
+  "label": {
+    "email": "Email",
+    "password": "Password",
+    "new_password": "New Password",
+    "current_password": "Current Password",
+    "confirm_new_password": "Confirm New Password",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "server_name": "Server Name",
+    "super_admin": "Super Admin",
+    "survey_admin": "Survey Admin",
+    "analyst": "Analyst",
+    "surveyor": "Surveyor",
+    "surveyor_admin": "Surveyor admin",
+    "survey_name": "Survey Name",
+    "new_survey_name": "New Survey Name",
+    "base_language": "Base Language",
+    "survey_mode": "Survey Mode",
+    "additional_languages": "Additional Languages",
+    "survey_active": "Survey Active",
+    "from": "From",
+    "to": "To",
+    "public_within_org": "Survey is available to all members within the org",
+    "apply_quota": "Apply Quota",
+    "total_responses_limit": "Total Responses Limit: ",
+    "responses_limit": "Responses Limit: ",
+    "code": "Code"
+  },
+  "language": {
+    "en": "English",
+    "de": "German",
+    "ar": "Arabic"
+  },
+  "mode": {
+    "web": "Web",
+    "offline": "Offline",
+    "mixed": "Web and Offline"
+  },
+  "status": {
+    "draft": "Draft",
+    "active": "Active",
+    "closed": "Closed"
+  },
+  "error": {
+    "invalid_email": "Invalid Email",
+    "password_should_match": "Password should match",
+    "required": "Is required"
+  },
+  "login": {
+    "title": "Login",
+    "forgot_password": "Forgot password",
+    "sign_up": "Sign Up",
+    "submit": "Submit"
+  },
+  "confirm_signup": {
+    "error": "An error occurred",
+    "success": "Your signup was confirmend successfully... you will be redirected to the home page in 10 seconds"
+  },
+  "forgot_password": {
+    "title": "Forgot Password",
+    "success": "A reset password link was sent to your email.. It is valid for only one hour",
+    "helper_text": " We will send a reset password link to this email (if exist)",
+    "send": "Send"
+  },
+  "reset_password": {
+    "title": "Reset Password",
+    "reset": "Reset"
+  },
+  "sign_up": {
+    "title": "Sign Up",
+    "success": "Signup confirmed successfully... Please check your inbox for a confirmation email",
+    "sign_up": "Sign Up",
+    "helper_text": "Choose a name to identify and access your server. Most users choose to use the name of their project, survey,or organization."
+  },
+  "users_manage": {
+    "name": "Name",
+    "email": "Email",
+    "roles": "Roles",
+    "add_user": "Add User",
+    "title_delete": "Delete",
+    "title_edit": "Edit",
+    "delete_title": "Are you sure you want to delete {{name}}?"
+  },
+  "action_btn": {
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "save": "Save",
+    "close": "Close",
+    "clone": "Clone",
+    "add_permission": "Add Permission",
+    "add": "Add"
+  },
+  "add_user": {
+    "title": "Add New User",
+    "roles": "Roles",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "edit_user": {
+    "title": "Edit User"
+  },
+  "profile": {
+    "title": "Profile",
+    "cancel": "Cancel",
+    "save": "Save",
+    "hint": "When you change your email or password, you will be logged out",
+    "password_required": "Current Password is Required to be able to edit your email or password"
+  },
+  "create_survey": {
+    "title": "Create Survey"
+  },
+  "edit_survey": {
+    "title": "Edit Survey",
+    "general": "General",
+    "sharing": "Sharing",
+    "navigation": "Navigation",
+    "offline": "Offline",
+    "quotas": "Quotas",
+    "survey_users": "Survey Users",
+    "privacy": "Privacy",
+    "status": "Status",
+    "delete_survey": "Are you sure you want to delete {{survey_name}}?",
+    "clone_survey": "Clone Survey",
+    "default_survey_url": "Default survey URL",
+    "social_sharing": "Social Sharing",
+    "background_audio": "Background Audio Recording",
+    "record_gps": "Track GPS Location",
+    "can_lock_survey": "Allow surveyors to lock survey",
+    "save_ip": "Record IP addresses",
+    "save_timings": "Record Timings",
+    "limit_responses": "Limit Responses by Surveyors",
+    "surveyor": "Surveyor",
+    "count": "Count",
+    "limit": "Limit",
+    "to": "to",
+    "responses": "responses"
+  },
+  "responses": {
+    "title": "Responses",
+    "start_date": "Start Date",
+    "submit_date": "Submit Date",
+    "lang": "Language",
+    "raw_values": "Show Raw Values",
+    "version": "Version",
+    "preview": "Preview",
+    "filter_completed": "Filter Completed Responses",
+    "filter_completed_show_all": "All Responses",
+    "filter_completed_show_completed": "Complete Responses only",
+    "filter_completed_show_incomplete": "Incomplete Responses only",
+    "filter_preview": "Filter Preview Responses",
+    "filter_preview_show_all": "All Responses",
+    "filter_preview_show_preview": "Preview Responses only",
+    "filter_preview_show_actual": "Actual Responses only",
+    "label_displayed_rows": "{{from}}-{{to}} of {{count}}",
+    "label_rows_per_page": "Rows per page:",
+    "ip_addr": "IP Address",
+    "title_delete_response": "Are you sure you want to delete?",
+    "export" : "Export Responses",
+    "reset_surveyor_filter" : "Reset Surveyor Filter"
+  },
+  "event_response": {
+    "title": "Response Events",
+    "name": "Name",
+    "time": "Time",
+    "details": "Details",
+    "direction": "Direction"
+  },
+  "responses_count": "Responses Count:",
+  "super_admins": "super admins",
+  "admins": "admins",
+  "analysts": "analysts",
+  "surveyors": "surveyors",
+  "surveyor_auditor": "surveyor auditor",
+  "registered": "registered",
+  "manage_users": "Manage Users",
+  "my_surveys": "My Surveys",
+  "new_survey": "New Survey",
+  "added": "Added:",
+  "last_modified": "Last Modified:",
+  "email_required": "Email is Required",
+  "password_required": "Password is Required",
+  "confirm_password_required": "You must repease password",
+  "firstname_required": "First Name is Required",
+  "lastname_required": "Last Name is Required",
+  "roles_required": "Roles is Required",
+  "survey_required": "Survey Name is Required",
+  "base_language_required": "Base Language is Required",
+  "survey_mode": "Survey Mode is Required"
+}

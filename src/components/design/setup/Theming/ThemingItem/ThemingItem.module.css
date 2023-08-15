@@ -1,0 +1,12 @@
+.themingItem h6 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.themingItem .themingItemBody {
+  display: flex;
+}
+
+.themingItem .themingItemBody div:nth-child(1) {
+  flex-grow: 1;
+}

@@ -1,0 +1,14 @@
+.questionItem {
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+.questionItem:last-child {
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .questionItem {
+    width: 100%;
+  }
+}

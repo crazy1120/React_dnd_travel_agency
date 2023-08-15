@@ -1,0 +1,96 @@
+.textHeader {
+  display: flex;
+  align-items: center;
+}
+
+.textDescription {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.titleRow {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  box-align: center;
+  margin-right: 24px;
+  margin-left: 24px;
+  flex-wrap: wrap;
+  box-pack: justify;
+}
+
+.groupCard {
+  position: relative;
+  box-shadow: inherit !important;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  padding-bottom: 24px;
+  cursor: default;
+}
+
+.groupEmptyHint {
+  text-align: center;
+  font-size: 32px;
+  padding: 16px;
+  color: gray;
+  margin: 16px;
+  border: 2px dashed gray;
+  border-radius: 4px;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 0.33);
+}
+.groupType {
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: rgba(0, 0, 0, 0.33);
+}
+
+.questionsOuterContainer {
+  padding: 24px;
+}
+
+.questionsInnerContainer {
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.groupDesignError {
+  border-color: red !important;
+  background-color: #ff000010 !important;
+}
+
+.groupHeader {
+  border: 1px solid transparent;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.inputGroupTitle {
+  width: 100%;
+  line-height: 135%;
+}
+
+.inputGroupDescription {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.moveBox {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  margin-top: 8px;
+  justify-content: center;
+  width: 50%;
+  cursor: move;
+}

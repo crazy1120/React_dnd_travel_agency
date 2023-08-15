@@ -1,0 +1,28 @@
+.boxContainer {
+  border: 1px solid;
+  padding: 15px;
+}
+
+.boxContainer h4 {
+  margin: 0;
+}
+
+.boxContainer .mt10 {
+  margin-top: 10px;
+}
+
+.boxContainer .uppercase {
+  text-transform: uppercase;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title p {
+  margin: 0;
+  margin-right: 30px;
+}

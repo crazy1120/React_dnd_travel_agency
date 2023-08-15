@@ -1,0 +1,39 @@
+.group--children.hide--line > .group-or-rule-container > .group-or-rule::before,
+.group--children.hide--line > .group-or-rule-container > .group-or-rule::after {
+  border-color: transparent;
+}
+
+.MuiAutocomplete-fullWidth {
+  width: 320px !important;
+}
+
+.query-builder-container {
+  padding: 0 !important;
+}
+
+.query-builder {
+  margin: 0 !important;
+}
+
+.logicField {
+  color: blue;
+}
+
+.logicOp {
+  font-weight: bold;
+}
+
+.logicValue {
+  color: green;
+}
+
+.condition-human-text {
+  width: 100%;
+  white-space: pre-wrap;
+}
+
+.query-builder-result {
+  margin-top: 9px;
+  display: flex;
+  background-color: #ddd;
+}

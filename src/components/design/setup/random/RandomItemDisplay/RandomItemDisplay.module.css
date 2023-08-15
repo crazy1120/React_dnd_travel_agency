@@ -1,0 +1,71 @@
+.randomHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.randomHeader .title {
+  margin: 0;
+  line-height: 40px;
+}
+
+.randomHeader .action {
+  float: right;
+}
+
+.randomHeader .settingIcon {
+  font-size: 20px;
+}
+
+.list {
+  padding-left: 7px;
+  margin: 0 0 10px;
+  list-style-type: "-";
+}
+
+.list li {
+  line-height: 24px;
+  margin-bottom: 6px;
+}
+
+.randomAction {
+  margin-top: 15px;
+  text-align: right;
+  padding-right: 4px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+}
+
+.listItem .label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.listItem .input {
+  width: 50px;
+}
+
+.listItemError {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+.listItemError .label {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.randomItem {
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+.highlighted {
+  border: 2px solid;
+  border-radius: 4px;
+}

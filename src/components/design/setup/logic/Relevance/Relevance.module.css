@@ -1,0 +1,11 @@
+.relevance {
+  display: inline-block;
+}
+
+.relevanceError {
+  background-color: #ff000022;
+}
+
+.errorContainer {
+  display: flex;
+}

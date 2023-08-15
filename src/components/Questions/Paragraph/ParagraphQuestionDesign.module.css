@@ -1,0 +1,21 @@
+.questionItem {
+  margin-bottom: 15px;
+}
+
+.questionItem:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .questionItem {
+    width: 100%;
+  }
+}
+
+.paragraph {
+  width: 100%;
+}
+
+.wordCount {
+  text-align: end;
+}

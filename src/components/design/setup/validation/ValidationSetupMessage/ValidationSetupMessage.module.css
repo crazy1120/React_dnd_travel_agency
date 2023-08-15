@@ -1,0 +1,60 @@
+.boxContainer {
+  border: 1px solid;
+  padding: 15px;
+
+  h4 {
+    margin: 0;
+  }
+
+  .mt10 {
+    margin-top: 10px;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    margin: 0;
+    margin-right: 30px;
+  }
+}
+
+.titleContent {
+  display: flex;
+  align-items: center;
+}
+
+.standardError {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  p {
+    margin: 0;
+    margin-right: 30px;
+  }
+}
+
+.errorWrapper {
+  display: flex;
+}
+
+.errorLabelWrapper {
+  margin-right: 10px;
+}
+
+.errorItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  min-height: 30px;
+}
+.errorItemContainer {
+  width: 100%;
+}

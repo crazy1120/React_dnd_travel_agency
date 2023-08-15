@@ -1,0 +1,28 @@
+.ql-editor {
+  padding: 0 !important;
+}
+
+.ql-container {
+  font-size: inherit !important;
+  font-family: inherit !important;
+}
+
+.ql-snow {
+  padding: 0 !important;
+  border: 0 !important;
+}
+
+.quill {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.rtl .ql-editor {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.rtl {
+  direction: rtl !important;
+  text-align: right !important;
+}

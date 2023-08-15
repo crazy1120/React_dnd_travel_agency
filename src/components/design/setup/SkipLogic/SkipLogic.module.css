@@ -1,0 +1,12 @@
+.skipItem {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.toEnd {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 4dp;
+}

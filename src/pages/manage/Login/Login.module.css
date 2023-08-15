@@ -1,0 +1,33 @@
+.wrapper {
+  width: 400px;
+  background: #eff3fd;
+  border: 1px solid #bdc6de;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 13px;
+  max-width: 407px;
+  padding: 5px;
+}
+
+.content {
+  background: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.form {
+  max-width: 250px;
+  margin: 40px auto;
+}
+
+.errorText {
+  color: #eb5757 !important;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+.link {
+  cursor: pointer;
+}

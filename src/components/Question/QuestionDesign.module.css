@@ -1,0 +1,52 @@
+.textDescriptionContent {
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}
+
+.groupQuestion {
+  position: relative;
+  margin-bottom: 24px;
+  padding: 24px;
+  border: 1px solid;
+  border-radius: 8px;
+  word-wrap: break-word;
+  page-break-inside: avoid;
+  transition: all 200ms cubic-bezier(0, 0, 0.2, 1);
+  cursor: default;
+}
+
+.titleQuestion {
+  display: flex;
+  align-items: center;
+}
+
+.titleQuestion h3 {
+  width: auto;
+}
+
+.questionWrapper {
+  margin-bottom: 8px;
+}
+
+.questionWrapper .inputQuestionTitle {
+  width: 100%;
+  letter-spacing: 0.1px;
+  word-break: break-word;
+}
+
+.questionWrapper .inputQuestionDescription {
+  width: 100%;
+}
+
+.questionWrapper .moveBox {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  font-size: 22px;
+  cursor: move;
+}
